@@ -100,8 +100,8 @@ function handleClick(event) {
 function determineWinner() {
     const count1 = board.flat().filter(x => x === 1).length;
     const count2 = board.flat().filter(x => x === 2).length;
-    if (count1 > count2) return "白の勝ち";
-    if (count2 > count1) return "黒の勝ち";
+    if (count1 > count2) return "シュシュの勝ち";
+    if (count2 > count1) return "ココの勝ち";
     return "引き分け";
 }
 
